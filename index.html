@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/style/resetCSS.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="assets/style/grid.css" />
+        <link rel="stylesheet" href="assets/style/pryramidLoader.css" />
+        <link rel="stylesheet" href="assets/style/animation_loading.css" />
+        <link rel="stylesheet" href="assets/style/hearAnimated.css" />
+        <link rel="stylesheet" href="assets/style/commentContainer.css" />
+        <link rel="stylesheet" href="assets/style/style.css" />
+        <link rel="icon" type="image/x-icon" href="assets/img/logo.jpg" />
+        <title>Nguyễn Thị Thu-A2K3</title>
+    </head>
+    <body>
+        <main class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#wrapper"><i class="fa-solid fa-house"></i></a>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a
+                            href="#structure"
+                            title="This is a link"
+                            class="nav-item-link"
+                            >structure</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            href="#main-machines"
+                            title="This is a link"
+                            class="nav-item-link"
+                            >main machines</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            href="#favorite-machine"
+                            title="This is a link"
+                            class="nav-item-link"
+                            >favortie machine</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            href="#assets"
+                            title="This is a link"
+                            class="nav-item-link"
+                            >assets</a
+                        >
+                    </li>
+                </ul>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </nav>
+            <div class="wrapper" id="wrapper">
+                <div class="cols cols0">
+                    <span class="topline">Hello</span>
+                    <h1>I'm <span class="multiText"></span></h1>
+                    <p class="p-info">
+                        A cleanroom is a lab for making micro/nanodevices that
+                        need very clean conditions. Micro/nanodevices are tiny
+                        devices that have many uses in different fields. To make
+                        them, a cleanroom uses three steps: deposition,
+                        lithography, and etching. In this report, we will
+                        explain the cleanroom and its machines and how they
+                        work.
+                    </p>
+                </div>
+                <div class="cols cols1">
+                    <div class="imgbox">
+                        <img src="assets/img/earth.png" alt="" id="spash" />
+                        <img src="assets/img/dinasour.png" alt="" id="cloud" />
+                    </div>
+                </div>
+                <div class="btn-download">
+                    Download file
+                    <div class="pdf-file">
+                        <a
+                            href="https://drive.google.com/file/d/1kn__SaF90GahtnOF5mr9dhbolY6O0G--/view?usp=drive_link"
+                        >
+                            PDF <img src="assets/img/pdf.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="word-file">
+                        <a
+                            href="https://docs.google.com/document/d/1yxHrgJ0Q099M7hPnJO7BPh3i4SI7gKp7/edit?usp=sharing&ouid=110420865558526427853&rtpof=true&sd=true"
+                        >
+                            Word <img src="assets/img/word.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="structure-container" id="structure">
+                <div class="pyramid-loader">
+                    <div class="wrapper_pyramid">
+                        <span class="side side1"></span>
+                        <span class="side side2"></span>
+                        <span class="side side3"></span>
+                        <span class="side side4"></span>
+                        <span class="shadow"></span>
+                    </div>
+                </div>
+                <h3 class="title-part">The structure of the cleanroom</h3>
+                <div class="introduct">
+                    It is a specialized laboratory for fabricating
+                    micro/nanodevices that require a very low level of
+                    environmental contamination, such as dust, airborne
+                    particles, microbes, or chemical vapors. A cleanroom is
+                    designed to control the temperature, humidity, air pressure,
+                    and air flow within the laboratory. The cleanliness of a
+                    cleanroom is measured by the number of particles per cubic
+                    meter at a specified size range. The International
+                    Organization for Standardization (ISO) has defined nine
+                    classes of cleanrooms, from ISO 1 (the cleanest) to ISO 9
+                    (the dirtiest). The typical ambient air in an urban area is
+                    equivalent to an ISO 9 cleanroom.
+                    <img
+                        src="assets/img/cleanRoom.jpg"
+                        alt=""
+                        class="introduct-img"
+                    />
+                </div>
+                <ul class="structure-list">
+                    <li class="structure-item">
+                        <a
+                            ><strong>Air filters</strong>
+                            <div class="show-img-hover">
+                                <div class="img-hover air-filters"></div>
+                            </div> </a
+                        >: These are devices that remove particles and
+                        contaminants from the air entering or circulating within
+                        the cleanroom. There are different types of air filters,
+                        such as high-efficiency particulate air (HEPA) filters,
+                        ultra-low penetration air (ULPA) filters, or activated
+                        carbon filters. Air filters are usually installed in the
+                        ceiling or walls of the cleanroom.
+                    </li>
+                    <li class="structure-item">
+                        <a
+                            ><strong>Air showers</strong>
+                            <div class="show-img-hover">
+                                <div class="img-hover air-showers"></div>
+                            </div> </a
+                        >: These are chambers that blow high-speed jets of
+                        filtered air onto the personnel or materials entering or
+                        exiting the cleanroom. The purpose of air showers is to
+                        remove any loose particles or contaminants from the
+                        surfaces of the objects or people passing through them.
+                    </li>
+                    <li class="structure-item">
+                        <a
+                            ><strong>Laminar flow hoods</strong>
+                            <div class="show-img-hover">
+                                <div class="img-hover laminar-flow-hoods"></div>
+                            </div> </a
+                        >: These are workstations that provide a localized area
+                        of clean air within the cleanroom. Laminar flow hoods
+                        have fans and filters that create a unidirectional and
+                        uniform flow of air over the work surface. Laminar flow
+                        hoods are used for handling sensitive materials or
+                        processes that require a high level of cleanliness.
+                    </li>
+                    <li class="structure-item">
+                        <a
+                            ><strong>Glove boxes</strong>
+                            <div class="show-img-hover">
+                                <div class="img-hover glove-boxes"></div>
+                            </div> </a
+                        >: These are sealed containers that have gloves attached
+                        to them, allowing the manipulation of materials or
+                        devices inside them without direct contact with the
+                        external environment. Glove boxes are used for handling
+                        hazardous, toxic, or infectious substances that require
+                        isolation from the surrounding air.
+                    </li>
+                    <li class="structure-item">
+                        <a
+                            ><strong>Cleanroom garments</strong>
+                            <div class="show-img-hover">
+                                <div class="img-hover cleanroom-garments"></div>
+                            </div> </a
+                        >: These are special clothing and accessories that are
+                        worn by the personnel working in the cleanroom.
+                        Cleanroom garments include suits, gloves, masks, hats,
+                        shoes, and goggles. The purpose of cleanroom garments is
+                        to prevent the shedding of skin cells, hair, fibers, or
+                        other particles that could contaminate the cleanroom
+                        environment.
+                    </li>
+                </ul>
+            </div>
+            <div class="main-machines-container" id="main-machines">
+                <h3 class="title-part">The main machines</h3>
+                <div class="main-machines">
+                    <div class="machine">
+                        <strong> Deposition machines</strong>: These machines
+                        are used to create thin layers of materials on a
+                        substrate by various methods, such as sputtering,
+                        evaporation, chemical vapor deposition (CVD), or atomic
+                        layer deposition (ALD). Sputtering machines use a plasma
+                        to bombard a target material and eject atoms that are
+                        deposited on the substrate. Evaporation machines use a
+                        high vacuum to heat a source material and vaporize it
+                        onto the substrate. CVD machines use a gas mixture to
+                        react with the substrate and form a solid film. ALD
+                        machines use sequential pulses of precursor gases to
+                        deposit one atomic layer at a time.
+                    </div>
+                    <img
+                        src="assets/img/depositionMachines.jpg"
+                        alt=""
+                        class="machine-img"
+                    />
+                </div>
+                <div class="main-machines">
+                    <img
+                        src="assets/img/lithographyMachines.jpg"
+                        alt=""
+                        class="machine-img"
+                    />
+                    <div class="machine">
+                        <strong> Lithography machines</strong>: These machines
+                        are used to transfer a pattern onto a substrate by using
+                        light, electrons, or ions. Electron beam lithography
+                        machines use a focused beam of electrons to write the
+                        pattern directly on a resist-coated substrate. Ion beam
+                        lithography machines use a focused beam of ions to do
+                        the same. Optical lithography machines use a mask and a
+                        light source to project the pattern onto the substrate.
+                        Nanoimprint lithography machines use a mold and a
+                        pressure system to imprint the pattern onto the
+                        substrate.
+                    </div>
+                </div>
+                <div class="main-machines">
+                    <div class="machine">
+                        <strong> Etching machines</strong>: are devices that are
+                        used to create patterns or shapes on the surface of a
+                        material by removing unwanted portions of it. There are
+                        two main types of etching machines: chemical and
+                        physical. Chemical etching machines use a chemical
+                        agent, such as a liquid or a gas, to react with the
+                        material and dissolve the parts that are not protected
+                        by a mask. Physical etching machines use a physical
+                        force, such as a plasma or an ion beam, to bombard the
+                        material and sputter away the parts that are not
+                        shielded by a mask.
+                    </div>
+                    <img
+                        src="assets/img/etchingMachines.jpg"
+                        alt=""
+                        class="machine-img"
+                    />
+                </div>
+            </div>
+            <div class="favorite-container" id="favorite-machine">
+                <h3 class="title-part">Favorite Machine</h3>
+                <div class="heart-container">
+                    <div class="preloader">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="shadow"></div>
+                </div>
+                <div class="card">
+                    <span class="title">Comments</span>
+                    <div class="comments">
+                        <div class="comment-react">
+                            <button>
+                                <svg
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    height="16"
+                                    width="16"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill="#707277"
+                                        stroke-linecap="round"
+                                        stroke-width="2"
+                                        stroke="#707277"
+                                        d="M19.4626 3.99415C16.7809 2.34923 14.4404 3.01211 13.0344 4.06801C12.4578 4.50096 12.1696 4.71743 12 4.71743C11.8304 4.71743 11.5422 4.50096 10.9656 4.06801C9.55962 3.01211 7.21909 2.34923 4.53744 3.99415C1.01807 6.15294 0.221721 13.2749 8.33953 19.2834C9.88572 20.4278 10.6588 21 12 21C13.3412 21 14.1143 20.4278 15.6605 19.2834C23.7783 13.2749 22.9819 6.15294 19.4626 3.99415Z"
+                                    ></path>
+                                </svg>
+                            </button>
+                            <hr />
+                            <span>14</span>
+                        </div>
+                        <div class="comment-container">
+                            <div class="user">
+                                <div class="user-pic">
+                                    <svg
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        height="20"
+                                        width="20"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linejoin="round"
+                                            fill="#707277"
+                                            stroke-linecap="round"
+                                            stroke-width="2"
+                                            stroke="#707277"
+                                            d="M6.57757 15.4816C5.1628 16.324 1.45336 18.0441 3.71266 20.1966C4.81631 21.248 6.04549 22 7.59087 22H16.4091C17.9545 22 19.1837 21.248 20.2873 20.1966C22.5466 18.0441 18.8372 16.324 17.4224 15.4816C14.1048 13.5061 9.89519 13.5061 6.57757 15.4816Z"
+                                        ></path>
+                                        <path
+                                            stroke-width="2"
+                                            fill="#707277"
+                                            stroke="#707277"
+                                            d="M16.5 6.5C16.5 8.98528 14.4853 11 12 11C9.51472 11 7.5 8.98528 7.5 6.5C7.5 4.01472 9.51472 2 12 2C14.4853 2 16.5 4.01472 16.5 6.5Z"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="user-info">
+                                    <span class="user-name"></span>
+                                    <p class="time-comment"></p>
+                                </div>
+                            </div>
+                            <div class="comment-content">
+                                <p>
+                                    A plasma <span>etching machine</span> is a
+                                    device that uses a plasma (ionized gas) to
+                                    create patterns on a material by removing
+                                    unwanted parts. It works by applying an
+                                    electric field to a gas and creating a
+                                    plasma inside a vacuum chamber. The plasma
+                                    contains charged particles that hit the
+                                    material and either knock off atoms
+                                    (physical etching) or react with them and
+                                    form volatile compounds (chemical etching).
+                                    The plasma etching machine can control the
+                                    ratio of physical and chemical etching by
+                                    changing the electric field and the gas
+                                    composition. It can also use a mask to
+                                    protect some areas of the material from
+                                    being etched.
+                                </p>
+                                <p>
+                                    Plasma etching machines are used in various
+                                    fields, such as electronics,
+                                    microfabrication, art, and jewelry. They can
+                                    create complex and detailed patterns on
+                                    different materials and improve their
+                                    properties. Plasma etching machines have
+                                    some advantages over wet etching machines,
+                                    such as higher resolution, lower damage, and
+                                    less waste. However, they also have some
+                                    disadvantages, such as higher cost, lower
+                                    throughput, and higher energy consumption.
+                                </p>
+                                <!-- <p>
+                                    Plasma etching machines have been developed
+                                    since the 1960s and have evolved over time
+                                    to improve their performance and efficiency.
+                                    They are an important tool for innovation
+                                    and creativity in many fields of science and
+                                    engineering.
+                                </p> -->
+                                <div class="img-comment-container">
+                                    <img
+                                        src="assets/img/etchingMachinesComment0.jpg"
+                                        alt=""
+                                        class="comment-img"
+                                    />
+                                    <img
+                                        src="assets/img/etchingMachinesComment1.jpg"
+                                        alt=""
+                                        class="comment-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-box">
+                        <div class="box-container">
+                            <textarea placeholder="" class="reply-comment">
+                            </textarea>
+                            <div>
+                                <div class="formatting">
+                                    <button type="button">
+                                        <svg
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            height="16"
+                                            width="16"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                stroke-linejoin="round"
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                d="M5 6C5 4.58579 5 3.87868 5.43934 3.43934C5.87868 3 6.58579 3 8 3H12.5789C15.0206 3 17 5.01472 17 7.5C17 9.98528 15.0206 12 12.5789 12H5V6Z"
+                                                clip-rule="evenodd"
+                                                fill-rule="evenodd"
+                                            ></path>
+                                            <path
+                                                stroke-linejoin="round"
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                d="M12.4286 12H13.6667C16.0599 12 18 14.0147 18 16.5C18 18.9853 16.0599 21 13.6667 21H8C6.58579 21 5.87868 21 5.43934 20.5607C5 20.1213 5 19.4142 5 18V12"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                    <button type="button">
+                                        <svg
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            height="16"
+                                            width="16"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                d="M12 4H19"
+                                            ></path>
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                d="M8 20L16 4"
+                                            ></path>
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                d="M5 20H12"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                    <button type="button">
+                                        <svg
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            height="16"
+                                            width="16"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                stroke-linejoin="round"
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                d="M5.5 3V11.5C5.5 15.0899 8.41015 18 12 18C15.5899 18 18.5 15.0899 18.5 11.5V3"
+                                            ></path>
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                d="M3 21H21"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                    <button type="button">
+                                        <svg
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            height="16"
+                                            width="16"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                stroke-linejoin="round"
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                d="M4 12H20"
+                                            ></path>
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                d="M17.5 7.66667C17.5 5.08934 15.0376 3 12 3C8.96243 3 6.5 5.08934 6.5 7.66667C6.5 8.15279 6.55336 8.59783 6.6668 9M6 16.3333C6 18.9107 8.68629 21 12 21C15.3137 21 18 19.6667 18 16.3333C18 13.9404 16.9693 12.5782 14.9079 12"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                    <button type="button">
+                                        <svg
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            height="16"
+                                            width="16"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                stroke-linejoin="round"
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                r="10"
+                                                cy="12"
+                                                cx="12"
+                                            ></circle>
+                                            <path
+                                                stroke-linejoin="round"
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#707277"
+                                                d="M8 15C8.91212 16.2144 10.3643 17 12 17C13.6357 17 15.0879 16.2144 16 15"
+                                            ></path>
+                                            <path
+                                                stroke-linejoin="round"
+                                                stroke-linecap="round"
+                                                stroke-width="3"
+                                                stroke="#707277"
+                                                d="M8.00897 9L8 9M16 9L15.991 9"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                    <button
+                                        type="submit"
+                                        class="send"
+                                        title="Send"
+                                    >
+                                        <svg
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            height="18"
+                                            width="18"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                stroke-linejoin="round"
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#ffffff"
+                                                d="M12 5L12 20"
+                                            ></path>
+                                            <path
+                                                stroke-linejoin="round"
+                                                stroke-linecap="round"
+                                                stroke-width="2.5"
+                                                stroke="#ffffff"
+                                                d="M7 9L11.2929 4.70711C11.6262 4.37377 11.7929 4.20711 12 4.20711C12.2071 4.20711 12.3738 4.37377 12.7071 4.70711L17 9"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img
+                    src="assets/img/h20-removebg-preview.png"
+                    alt=""
+                    class="animated-img-comment1"
+                />
+                <img
+                    src="assets/img/commentAnimated1-removebg-preview.png"
+                    alt=""
+                    class="animated-img-comment2"
+                />
+                <img
+                    src="assets/img/commentAnimated2-removebg-preview.png"
+                    alt=""
+                    class="animated-img-comment3"
+                />
+            </div>
+            <div class="assets-container grid assets" id="assets">
+                <h3 class="title-part">Assets</h3>
+                <h5>
+                    <span style="color: #f8602c">HTML</span>,
+                    <span style="color: #285fef">CSS</span>,
+                    <span style="color: #ecd64c">JS</span>
+                </h5>
+                <h5>Used gridsystem</h5>
+                <br />
+                <div class="row">
+                    <div class="col l-2">
+                        <div class="asset-img" id="first"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col l-2">
+                        <div class="asset-img" id="second"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col l-2">
+                        <div class="asset-img" id="third"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col l-2">
+                        <div class="asset-img" id="fourth"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col l-2">
+                        <div class="asset-img" id="fiveth"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col l-2">
+                        <div class="asset-img" id="sixth"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="asset-img" id="seventh"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="asset-img" id="eighth"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="asset-img" id="nineth"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="asset-img" id="tenth"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l-4">
+                        <div class="asset-img" id="eleventh"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="asset-img" id="twenth"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="asset-img" id="thirdth"></div>
+                        <div class="name-img">
+                            <a
+                                href="https://drive.google.com/drive/folders/1K_XCcRhBBBSX9E1sGpt6tct9ij5-ePMt?usp=drive_link"
+                                class="img-link"
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </div>
+        </main>
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typingEffect = new Typed('.multiText', {
+                strings: ['Nguyễn Thị Thu', 'A Youtuber', 'A Designer'],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 80,
+                backDelay: 1500,
+            });
+            var typingCommentEffect = new Typed('.reply-comment', {
+                strings: [
+                    'I really enjoyed reading your article🥰!',
+                    'How an impressed post🥳!',
+                    'You have done a lot of research and analysis😲?',
+                ],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 80,
+                backDelay: 1500,
+            });
+        </script>
+        <script src="assets/script/script.js"></script>
+    </body>
+</html>

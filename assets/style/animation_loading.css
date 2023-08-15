@@ -1,0 +1,120 @@
+.page {
+    padding: 190px;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    color: blue;
+    background: greenyellow;
+}
+
+button:hover {
+    background: rgb(9, 211, 2);
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#plane {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+}
+
+#loader-container {
+    background: greenyellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: loader-container 2.5s ease-in;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+/*! Tail plane */
+#plane::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    bottom: -170px;
+    width: 3px;
+    height: 200px;
+    background: #fff;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+/*! Shadow plane  */
+#plane::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: 8px;
+    bottom: -190px;
+    width: 3px;
+    height: 200px;
+    background: #000;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+#airplane-lane {
+    width: 100px;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 100%);
+    animation: planeFly 3s linear;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+#airplane-color {
+    fill: black;
+}
+@keyframes planeFly {
+    0% {
+        transform: translate(-50%, 110%);
+    }
+
+    30% {
+        transform: translate(-50%, 50%);
+    }
+
+    100% {
+        transform: translate(-50%, 0%);
+    }
+}
+
+@keyframes loader-container {
+    0% {
+        transform: translate(0%, 0%);
+    }
+
+    50% {
+        transform: translate(0%, 0%);
+    }
+
+    100% {
+        transform: translate(0%, -200%);
+    }
+}
